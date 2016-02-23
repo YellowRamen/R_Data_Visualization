@@ -1,0 +1,38 @@
+---
+title: "project3"
+author: "Henry Zhao, Brian Huang, Zachary Fine"
+date: "Friday, March 06, 2015"
+output: html_document
+---
+<br><br><b><font color = #FF9933><font size = 5>
+Data Analysis on California Babies:</font></font><br>
+<font color = #FF9933><font size = 4>Disproving stereotypes (or proving them)</font></font>
+</font></b>
+<br><br><font size = 2> This is our third project and it looks at births in California by race, weight, and age of mother. We look at how these three variables are related and how they influence each other.
+<br><br>Can we predict anything about the race/weight/mother age of a baby by knowing another factor?</font>
+
+---
+```{r}
+source("../01 Data/data.r", echo = TRUE)
+```
+
+#Graphs
+#### In the first graph, we observed that most mothers under the age 20 are either Blacks or Hispanics
+
+#### In the second graph, we observed that the mother's age does not really affect whether or not the baby is born with a healthy weight, except mothers under age 20 tend to have babies with less healthy weight (either too big or too small)
+
+#### In the third graph, we can tell that White and Hispanic babies are prevalent in California. Asian babies tend to be lighter because only the "Under 1500g" count was significant for Filipino and SE Asian.
+
+```{r}
+source("../02 Data Wrangling/data_wrangling.R", echo = TRUE)
+```
+
+### From this project, we built on what we learned from last time, by using joins and beautiful plotting. We learned to make our graphs look nicer with title formats, etc. We also joined multiple tables to practice different types of joins, and gained deeper understanding of SQL joins and R joins. In the process, we developed skills in analyzing multiple variables.
+
+
+```{r}
+source("../03 Visualizations/visualizations.R", echo = TRUE)
+source("../03 Visualizations/png.R", echo = TRUE)
+```
+
+### This is our PNG file that shows a characterization of the categorical columns (as group by plots) and measure columns (as histograms) for our main table.

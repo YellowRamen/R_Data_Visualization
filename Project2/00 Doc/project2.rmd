@@ -1,0 +1,13 @@
+---
+title: "project2"
+author: "Henry Zhao, Brian Huang, Zachary Fine"
+date: "Friday, February 06, 2015"
+output: html_document
+---
+
+---
+```{r, echo=FALSE}
+source("../01 Data/data.r", echo=TRUE)
+source("../02 Data Wrangling/data_wrangling.R", echo=TRUE)
+```
+
